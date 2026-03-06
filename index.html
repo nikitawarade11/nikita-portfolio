@@ -345,13 +345,11 @@
             <h2>Get In Touch</h2>
             <p class="subtitle">Let’s work together</p>
 
-            <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+            <form name="contact" method="POST" data-netlify="true" netlify netlify-honeypot="bot-field">
 
-                <!-- Netlify form identification -->
                 <input type="hidden" name="form-name" value="contact">
 
-                <!-- spam protection -->
-                <p style="display:none">
+                <p hidden>
                     <label>Don’t fill this out: <input name="bot-field"></label>
                 </p>
 
