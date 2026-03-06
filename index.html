@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nikita Warade | Data Analyst</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-logo">Nikita Warade</div>
+        <div class="nav-links" id="navLinks">
+            <a href="#hero">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Nikita Warade</h1>
+            <h2>Data Analyst</h2>
+            <p>
+                Turning data into meaningful insights through analytics,
+                visualization, and intelligent decision-making.
+            </p>
+        </div>
+        <div id="hero-canvas"></div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+        <div class="section-inner about-layout">
+            <div class="about-image">
+                <img src="./nikita.jpeg" alt="Nikita">
+            </div>
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>
+                    Aspiring Data Analyst with a strong foundation in statistical analysis,
+                    data visualization, and data modeling. Proficient in Python, SQL, Excel,
+                    and Power BI with hands-on experience transforming raw data into meaningful insights.
+                </p>
+                <p>
+                    Passionate about solving real-world problems using data-driven approaches
+                    and building dashboards for intelligent decision-making.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+        <div class="section-inner">
+            <h2>Skills</h2>
+
+            <div class="skill-matrix">
+
+                <div class="matrix-row header">
+                    <div>Category</div>
+                    <div>Tools & Expertise</div>
+                </div>
+
+                <!-- Languages -->
+                <div class="matrix-row">
+                    <div>Languages</div>
+                    <div class="tools">
+                        <span>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
+                            Python
+                        </span>
+                        <span>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg">
+                            SQL
+                        </span>
+                    </div>
+                </div>
+
+                <!-- BI Tools -->
+                <div class="matrix-row">
+                    <div>BI Tools</div>
+                    <div class="tools">
+                        <span>
+                            <img src="https://img.icons8.com/color/48/microsoft-excel-2019--v1.png">
+                            Excel
+                        </span>
+                        <span>
+                            <img src="https://img.icons8.com/color/48/power-bi.png">
+                            Power BI
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Libraries -->
+                <div class="matrix-row">
+                    <div>Libraries</div>
+                    <div class="tools">
+                        <span>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg">
+                            Pandas
+                        </span>
+                        <span>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg">
+                            NumPy
+                        </span>
+                        <span>
+                            <img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg">
+                            Matplotlib
+                        </span>
+                        <span>
+                            Seaborn
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Databases -->
+                <div class="matrix-row">
+                    <div>Databases</div>
+                    <div class="tools">
+                        <span>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg">
+                            MySQL
+                        </span>
+                        <span>
+                            <img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg">
+                            PostgreSQL
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Techniques -->
+                <div class="matrix-row">
+                    <div>Techniques</div>
+                    <div>
+                        Data Cleaning, Data Wrangling, Modeling, Visualization, Dashboarding
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+        <div class="section-inner">
+
+            <h2>Projects</h2>
+
+            <div class="project-grid">
+
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <h3>Breast Cancer Classification System</h3>
+                    <p>
+                        AI powered diagnostic system that classifies breast cancer images
+                        using Convolutional Neural Networks. Includes preprocessing,
+                        model training, and a Tkinter GUI for user interaction.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>CNN</span>
+                        <span>Jupyter</span>
+                        <span>Tkinter</span>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <h3>Bank Loan Analysis Dashboard</h3>
+                    <p>
+                        Interactive Excel dashboard analyzing loan performance,
+                        borrower behavior, and credit risk using Pivot Tables,
+                        KPIs, and slicers for dynamic insights.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>Excel</span>
+                        <span>Pivot Tables</span>
+                        <span>KPI Analysis</span>
+                    </div>
+
+                    <a href="https://github.com/nikitawarade11/Bank-Loan-Excel-Dashboard" target="_blank">View Project
+                        →</a>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <h3>Uber Ride Analysis Dashboard</h3>
+                    <p>
+                        Power BI dashboard analyzing ride demand, peak hours,
+                        and geospatial trends to improve operational insights
+                        and reporting efficiency.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>Power BI</span>
+                        <span>Excel</span>
+                        <span>Data Visualization</span>
+                    </div>
+
+                    <a href="https://github.com/nikitawarade11/Uber-Dashboard-Project" target="_blank">View Project
+                        →</a>
+                </div>
+
+                <!-- Project 4  -->
+                <div class="project-card">
+                    <h3>Weather Data Analysis Dashboard</h3>
+
+                    <p>
+                        Interactive Power BI dashboard analyzing weather metrics such as
+                        temperature, humidity, wind speed, and environmental conditions.
+                        Implemented Power Query transformations and DAX measures to
+                        uncover trends and support data-driven insights.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>Power BI</span>
+                        <span>Power Query</span>
+                        <span>DAX</span>
+                        <span>Data Visualization</span>
+                    </div>
+
+                    <a href="https://github.com/nikitawarade11/Weather-Analysis-Dashboard" target="_blank">
+                        View Project →
+                    </a>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <h3>BLINKIT Grocery Sales Dashboard</h3>
+
+                    <p>
+                        Excel dashboard analyzing BlinkIT grocery sales performance across
+                        product categories and outlet characteristics. Built using Pivot Tables,
+                        Charts, and Slicers to identify sales trends and improve business insights.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>Excel</span>
+                        <span>Pivot Tables</span>
+                        <span>Pivot Charts</span>
+                        <span>Data Analysis</span>
+                    </div>
+
+                    <a href="https://github.com/nikitawarade11/BlinkIT-Dashboard" target="_blank">
+                        View Project →
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications" class="section">
+        <div class="section-inner">
+            <h2>Certifications</h2>
+
+            <div class="cert-grid">
+
+                <div class="cert-card">
+                    <div class="cert-title">Python Programming</div>
+                    <div class="cert-issuer">Udemy</div>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-title">Deloitte Data Analytics Job Simulation</div>
+                    <div class="cert-issuer">Deloitte</div>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-title">SQL for Data Analyst</div>
+                    <div class="cert-issuer">Online Course</div>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-title">AI Tools Workshop</div>
+                    <div class="cert-issuer">Workshop</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- EDUCATION -->
+    <section id="education" class="section">
+        <div class="section-inner">
+
+            <h2>Education</h2>
+
+            <div class="timeline">
+
+                <div class="timeline-row left">
+                    <div class="timeline-card">
+                        <h3>B.E. Electronics & Telecommunication</h3>
+                        <p>Shri Sant Gajanan Maharaj College of Engineering, Shegaon</p>
+                        <p>Dec 2021 – May 2025</p>
+                        <p><strong>CGPA: 8.38</strong></p>
+                    </div>
+                </div>
+
+                <div class="timeline-row right">
+                    <div class="timeline-card">
+                        <h3>HSC, Bharat Higher Secondary School, Buldana</h3>
+                        <p>May 2021</p>
+                        <p><strong>Percentage: 97.83%</strong></p>
+                    </div>
+                </div>
+
+                <div class="timeline-row left">
+                    <div class="timeline-card">
+                        <h3>SSC, Nutan Vidyalaya, Malkapur</h3>
+                        <p>Jun 2019</p>
+                        <p><strong>Percentage: 89%</strong></p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+        <div class="section-inner">
+
+            <h2>Get In Touch</h2>
+            <p class="subtitle">Let’s work together</p>
+
+            <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you">
+
+                <!-- Netlify form identification -->
+                <input type="hidden" name="form-name" value="contact">
+
+                <!-- spam protection -->
+                <p style="display:none">
+                    <label>Don’t fill this out: <input name="bot-field"></label>
+                </p>
+
+                <input type="text" name="name" placeholder="Your Name" required>
+
+                <input type="email" name="email" placeholder="Your Email" required>
+
+                <input type="text" name="subject" placeholder="Subject" required>
+
+                <textarea name="message" rows="6" placeholder="Message" required></textarea>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+
+        </div>
+    </section>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById("navLinks").classList.toggle("show");
+        }
+    </script>
+
+    <script src="shader-bg.js"></script>
+    <script src="hero.js"></script>
+</body>
+
+</html>
